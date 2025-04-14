@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.hero{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #010758, #490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+    & h1{
+        font-size: 45px;
+        font-weight: 600;
+        margin: -50px 10px 50px 50px;
+    }
+
+    & span{
+        color: #ff2963;
+    }
+
+    & textarea{
+        /* max-width: 800px; */
+        /* width: 320px; */
+        width: 90%;
+        height: 300px;
+        background: #403d84;
+        color: white;
+        font-size: 20px;
+        bottom: 0;
+        outline: 0;
+        padding: 15px;
+        border-radius: 10px;
+        resize: none;
+        margin-bottom: 30px;
+    }
+
+    & ::placeholder{
+        font-size: 20px;
+        font-style: italic;
+        color: antiquewhite;
+    }
+}
+
+div.row{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    & button{
+        background: #ff2963;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding: 12px 25px;
+        cursor: pointer;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    & img{
+        width: 18px;
+        margin-right: 8px;
+    }
+
+    & select{
+        flex: 1;
+        color: #fff;
+        background: #403d84;
+        height: 50px;
+        padding: 0 20px;
+        outline: 0;
+        border: 0;
+        border-radius: 35px;
+        appearance: none;
+        background-image: url(./assests/Images/dropdown.png);
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position-x: calc(100% - 4%);
+        background-position-y: 50%;
+    }
+}
