@@ -47,11 +47,11 @@ div.hero{
 }
 
 div.row{
-    width: 500px;
+    width: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 
     & button{
         background: #ff2963;
@@ -64,6 +64,7 @@ div.row{
         display: flex;
         align-items: center;
         color: white;
+        /* width: 20px; */
     }
 
     & img{
